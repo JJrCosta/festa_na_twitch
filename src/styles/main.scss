@@ -1,5 +1,6 @@
 @use 'variables';
 @use 'hero';
+@use 'timeline';
 
 // font-family: 'Lobster', cursive;
 // font-family: 'Roboto', sans-serif;
@@ -17,6 +18,24 @@
     width: 100%;
     margin: 0 auto;
     padding: 3%;
+}
+
+.title {
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    color: variables.$textWhite;
+    padding-top: 20px;
+    text-align: center;
+
+    @media (max-width: 375px) {
+        font-size: 24px;
+    }
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: variables.$textWhite;
+    line-height: 30px;
 }
 
 body{

@@ -6,17 +6,7 @@
     color: variables.$textWhite;
     font-family: 'Roboto', sans-serif;
 
-    &__title {
-        font-family: 'VT323', monospace;
-        font-size: 32px;
-
-        @media (max-width: 375px) {
-            font-size: 24px;
-        }
-    }
-
     &__logo {
-        padding: 20px;
         max-width: 350px;
 
         @media (max-width: 768px) {
@@ -85,9 +75,5 @@
             margin-top: 30px;
             width: 100%;
         }
-    }
-
-    &__text {
-        line-height: 30px;
     }
 }

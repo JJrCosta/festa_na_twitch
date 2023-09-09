@@ -1,0 +1,21 @@
+.timeline {
+    text-align: center;
+
+    &__img {
+        width: 220px;
+        margin: 30px 5px 30px;
+
+        @media (max-width: 768px) {
+            width: 160px;
+        }
+
+        @media (max-width: 374px) {
+            width: 140px;
+            margin: 20px 0 0;
+        }
+    }
+
+    &__text {
+        margin: 20px 0;
+    }
+}
