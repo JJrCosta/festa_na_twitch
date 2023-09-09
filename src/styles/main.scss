@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'hero';
 @use 'timeline';
+@use 'more-info';
 
 // font-family: 'Lobster', cursive;
 // font-family: 'Roboto', sans-serif;
@@ -24,7 +25,6 @@
     font-family: 'VT323', monospace;
     font-size: 32px;
     color: variables.$textWhite;
-    padding-top: 20px;
     text-align: center;
 
     @media (max-width: 375px) {
@@ -36,6 +36,7 @@
     font-family: 'Roboto', sans-serif;
     color: variables.$textWhite;
     line-height: 30px;
+    text-align: center;
 }
 
 body{

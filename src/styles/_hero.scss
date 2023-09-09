@@ -4,10 +4,11 @@
     background-color: variables.$lightBg;
     text-align: center;
     color: variables.$textWhite;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
 
     &__logo {
         max-width: 350px;
+        margin-bottom: 30px;
 
         @media (max-width: 768px) {
             max-width: 250px;
@@ -27,7 +28,8 @@
     }
 
     &__counter {
-        background-color: variables.$darkBg;
+        background: variables.$darkBg url('../images/counter_bg.png') no-repeat;
+        background-size: cover;
         max-width: 800px;
         width: 60%;
         margin: 10px;
@@ -53,10 +55,9 @@
     &__btn {
         display: inline-block;
         padding: 10px 20px;
-        font-family: 'VT323', monospace;
         font-size: 20px;
         font-weight: bold;
-        color: variables.$primaryColor;
+        color: variables.$textWhite;
         border: 3px solid variables.$primaryColor;
         border-radius: 5px;
 
