@@ -1,5 +1,24 @@
+@use 'variables';
+@use 'hero';
+
+// font-family: 'Lobster', cursive;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'VT323', monospace;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
 body{
-    background-color: #000;
-    color: #fff;
-    text-align: center;
+    background-color: variables.$darkBg;
 }
